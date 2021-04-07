@@ -1,4 +1,4 @@
-name: 'GitHits'
+name: 'GitHits-Action'
 description: 'Permanent storage for GitHub Traffic Insights'
 branding:
   icon: 'pocket'
