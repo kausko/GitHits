@@ -24,9 +24,9 @@ jobs:
     name: GitHitJob
     runs-on: ubuntu-latest
     steps:
-      - name: GitHits
+      - name: GitHits-Action
         id: gh
-        uses: kausko/GitHits@HEAD
+        uses: kausko/GitHits@v1
         with:
           pat: ${{ secrets.PAT }}
       - name: Output
