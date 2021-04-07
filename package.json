@@ -1,0 +1,17 @@
+{
+  "name": "GitHits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Permanent storage for GitHub Traffic Insights",
+  "repository": "https://github.com/kausko/GitHits.git",
+  "author": "kausko <kausko@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

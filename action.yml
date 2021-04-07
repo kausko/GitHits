@@ -1,0 +1,12 @@
+name: 'GitHits'
+description: 'Permanent storage for GitHub Traffic Insights'
+inputs:
+  pat:  # PAT of user
+    description: 'GitHub Personal Access Token'
+    required: true
+outputs:
+  status:
+    description: 'Output message of GitHits Action'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
