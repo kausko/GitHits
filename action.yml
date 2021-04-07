@@ -1,7 +1,10 @@
 name: 'GitHits'
 description: 'Permanent storage for GitHub Traffic Insights'
+branding:
+  icon: 'pocket'
+  color: 'blue'
 inputs:
-  pat:  # PAT of user
+  pat:
     description: 'GitHub Personal Access Token'
     required: true
 outputs:
