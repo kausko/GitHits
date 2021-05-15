@@ -14,7 +14,7 @@ Built for usage with [GitHitServer](https://github.com/kausko/GitHitServer).
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: "* 23 * * *"
+    - cron: "00 23 * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -33,7 +33,7 @@ jobs:
         run: echo ${{ steps.gh.outputs.status }}
 ```
 
-- This action will run at every minute past hour 23 and populate the `hits.json` file. This behaviour can be changed by modifying the cron value.
+- This action will run everyday at 23:00 and populate the `hits.json` file. This behaviour can be changed by modifying the cron value.
 - This action can also be run manually.
 - To use this data on your README, head over to [GitHitServer](https://github.com/kausko/GitHitServer).
 
